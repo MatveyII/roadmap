@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CurveSide — Roadmap</title>
+
+  <style>
+    :root {
+      --bg: #0f1115;
+      --card: #171a21;
+      --text: #e6e6e6;
+      --muted: #9aa0a6;
+      --accent: #5ddcff;
+      --accent2: #c77dff;
+      --border: #262a33;
+    }
+
+    * {
+      box-sizing: border-box;
+      font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    }
+
+    body {
+      margin: 0;
+      background: radial-gradient(circle at top, #151823, var(--bg));
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 32px 20px 64px;
+    }
+
+    header {
+      margin-bottom: 48px;
+    }
+
+    h1 {
+      font-size: 36px;
+      margin-bottom: 8px;
+      background: linear-gradient(90deg, var(--accent), var(--accent2));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .subtitle {
+      color: var(--muted);
+      max-width: 720px;
+    }
+
+    .section {
+      margin-bottom: 40px;
+    }
+
+    .section h2 {
+      font-size: 24px;
+      margin-bottom: 16px;
+      border-left: 4px solid var(--accent);
+      padding-left: 12px;
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 20px;
+      margin-bottom: 16px;
+    }
+
+    .card h3 {
+      margin-top: 0;
+      margin-bottom: 8px;
+      font-size: 20px;
+    }
+
+    .tag {
+      display: inline-block;
+      padding: 4px 10px;
+      border-radius: 999px;
+      font-size: 12px;
+      background: rgba(93, 220, 255, 0.15);
+      color: var(--accent);
+      margin-right: 6px;
+      margin-bottom: 6px;
+    }
+
+    ul {
+      padding-left: 18px;
+      margin: 12px 0 0;
+    }
+
+    li {
+      margin-bottom: 6px;
+    }
+
+    footer {
+      margin-top: 64px;
+      color: var(--muted);
+      font-size: 14px;
+      text-align: center;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 28px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+
+    <header>
+      <h1>CurveSide — Roadmap</h1>
+      <p class="subtitle">
+        Мягкая дорожная карта без жёстких сроков.  
+        Только то, что реально планируется и над чем ведётся работа.
+      </p>
+    </header>
+
+    <!-- БЛИЖАЙШЕЕ -->
+    <section class="section">
+      <h2>🚧 Ближайшее</h2>
+
+      <div class="card">
+        <h3>Delivery Chaos — Обновление</h3>
+        <div>
+          <span class="tag">Update</span>
+          <span class="tag">Live Project</span>
+        </div>
+        <ul>
+          <li>Кастомизация персонажа</li>
+          <li>Новые пасхалки и мемные элементы</li>
+          <li>Возможное расширение города</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>CurveSide — Ребрендинг</h3>
+        <div>
+          <span class="tag">Brand</span>
+          <span class="tag">Identity</span>
+        </div>
+        <ul>
+          <li>Смена названия: Potato Dev → CurveSide</li>
+          <li>Новый логотип и визуальный стиль</li>
+          <li>Обновлённый дизайн сайта</li>
+          <li>Новый домен</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- СЛЕДУЮЩИЙ ЭТАП -->
+    <section class="section">
+      <h2>🎮 Следующий этап</h2>
+
+      <div class="card">
+        <h3>Crazy Joust</h3>
+        <div>
+          <span class="tag">New Game</span>
+          <span class="tag">Polishing</span>
+        </div>
+        <ul>
+          <li>Финальная полировка геймплея</li>
+          <li>Подготовка к релизу</li>
+          <li>Платформы:
+            <ul>
+              <li>Android</li>
+              <li>RuStore (точно)</li>
+              <li>Huawei AppGallery (вероятно)</li>
+              <li>Google Play (попытка публикации)</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Orbital Rush — Обновление</h3>
+        <div>
+          <span class="tag">Update</span>
+        </div>
+        <ul>
+          <li>Добавление туториала</li>
+          <li>Возможное улучшение генерации уровней</li>
+          <li>Больше скинов</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ДАЛЬШЕ -->
+    <section class="section">
+      <h2>🔥 В разработке</h2>
+
+      <div class="card">
+        <h3>🎮 Siege Boom (Voxel Edition)</h3>
+        <div>
+          <span class="tag">New IP</span>
+          <span class="tag">R&D</span>
+          <span class="tag">Voxel</span>
+        </div>
+
+        <p>
+          Siege Boom — мобильный экшен про разрушение воксельных замков
+          с упором на зрелищную физику, короткие бои и удовольствие от хаоса.
+        </p>
+
+        <ul>
+          <li>Полностью разрушаемые воксельные замки</li>
+          <li>Асинхронный PvP + офлайн-кампания</li>
+          <li>Короткие бои (~60 секунд)</li>
+          <li>Физика разрушений влияет на исход боя</li>
+          <li>Прогрессия замка и открытие новых модулей</li>
+        </ul>
+
+        <p><strong>Ключевая идея:</strong><br/>
+          «Разрушение — это главный геймплей»
+        </p>
+      </div>
+    </section>
+
+    <footer>
+      © CurveSide — Indie Game Development  
+      <br/>
+      Roadmap может обновляться по мере разработки
+    </footer>
+
+  </div>
+</body>
+</html>
